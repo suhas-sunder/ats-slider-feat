@@ -1,0 +1,102 @@
+$logo-blue: rgb(0, 19, 69);
+$logo-blue-transparent: rgba(0, 16, 55, 0.8);
+$logo-light-green: rgb(8, 247, 85);
+$box-shadow-light-black: rgba(16, 16, 69, 0.15);
+$admin-blue: rgb(24, 60, 252);
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+  justify-content: center;
+  margin: auto;
+  max-width: 920px;
+
+  &__nav-overlay {
+    position: absolute;
+  }
+
+  &__slides {
+    display: block;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 0 1rem;
+    box-shadow: 3px 6px 10px $box-shadow-light-black;
+  }
+
+  &__overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    border: none;
+    color: transparent;
+    font-size: 2rem;
+    background-color: transparent;
+  }
+
+  &__overlay:hover {
+    cursor: pointer;
+    background-color: $logo-blue-transparent;
+    color: white;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: $logo-blue;
+    width: 100%;
+    font-size: 1.7rem;
+    background-attachment: fixed;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      display: block;
+      background-color: transparent;
+      border: none;
+      font-size: 1.8rem;
+      flex: 1;
+    //   width: 100%;
+      color: $logo-blue;
+      padding: 1rem 0;
+    }
+
+    button:hover {
+      color: $admin-blue;
+      font-size: 2rem;
+      cursor: pointer;
+    }
+  }
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+}
