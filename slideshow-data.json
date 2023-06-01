@@ -1,0 +1,51 @@
+{
+    "header": [
+        {
+            "title": "Track progress on all maintenance work in real time",
+            "text-1": "Fill out maintenance forms with ease",
+            "img-1": "img",
+            "text-2": "Post maintenance request in one click",
+            "img-2": "img",
+            "text-3": "Track progress & receive updates in real time",
+            "img-3": "img"
+        }
+    ],
+
+    "track-maintenance": [
+        {
+            "title": "Track progress on all maintenance work in real time",
+            "text-1": "Fill out maintenance forms with ease",
+            "img-1": "img",
+            "text-2": "Post maintenance request in one click",
+            "img-2": "img",
+            "text-3": "Track progress & receive updates in real time",
+            "img-3": "img",
+            "total-slides" : 3
+        }
+    ],
+    "organize-teams": [
+        {
+            "title": "Organizing teams and locations made hassle free",
+            "text-1": "All staff information in one convenient location",
+            "img-1": "img",
+            "text-2": "Add all your maintenance locations for quick access",
+            "img-2": "img",
+            "text-3": "Assign staff & location for each job in seconds",
+            "img-3": "img",
+            "total-slides" : 3
+        }
+    ],
+    "manage-data": [
+        {
+            "title": "Accessing maintenance data has never been easier",
+            "text-1": "Jobs, staff, location data, & more",
+            "img-1": "img",
+            "text-2": "Easy access to all essential maintenance information",
+            "img-2": "img",
+            "text-3": "Complete maintenance history at your finger tips",
+            "img-3": "img",
+            "total-slides" : 3
+        }
+    ]
+
+}
